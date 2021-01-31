@@ -68,8 +68,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -317,4 +317,36 @@ p {
   padding: 0.25rem 0.5rem;
   text-transform: capitalize;
   cursor: pointer;
+}
+
+.list-item {
+  /* border: 1px solid black; */
+  padding: 1rem 0;
+}
+
+.list-item > div {
+  /* border: 1px solid sandybrown; */
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.list-item > div > span {
+  border: 1px solid sandybrown;
+  width: 100%;
+}
+.list-item > div > button {
+  color: red;
+  /* margin-left: 0.5rem; */
+  padding: 0.2rem 1rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+
+.list-item > div > button:hover {
+  background-color: black;
 }

@@ -350,3 +350,7 @@ p {
 .list-item > div > button:hover {
   background-color: black;
 }
+
+.engaged {
+  color: red;
+}
